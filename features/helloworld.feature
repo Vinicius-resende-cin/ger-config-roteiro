@@ -24,3 +24,8 @@ Show a message saying "Hello World" on the screen
     Given I open the application
     When I navigate to the home screen multiple times
     Then I should see "Hello World" displayed only once on the screen
+
+  Scenario: Verify Hello World message is centered
+    Given I open the application
+    When I navigate to the home screen
+    Then the "Hello World" message should be centered on the screen
