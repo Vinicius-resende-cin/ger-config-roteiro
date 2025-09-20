@@ -1,5 +1,5 @@
 Show a message saying "Hello World" on the screen
-  Scenario: Display Hello World
+  Scenario: Display Hello World message
     Given I open the application
     When I navigate to the home screen
     Then I should see "Hello World" displayed on the screen
