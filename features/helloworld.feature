@@ -29,3 +29,8 @@ Show a message saying "Hello World" on the screen
     Given I open the application
     When I navigate to the home screen
     Then the "Hello World" message should be centered
+
+  Scenario: Check Hello World message font size
+    Given I open the application
+    When I navigate to the home screen
+    Then the "Hello World" message should have a font size of 24px
