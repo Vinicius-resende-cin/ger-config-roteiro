@@ -19,3 +19,8 @@ Show a message saying "Hello World" on the screen
     When I press the dismiss button
     Then I should see an error message "No message to dismiss"
     Then "Hello World" should still not be displayed on the screen
+
+  Scenario: Ensure Hello World is displayed only once
+    Given I open the application
+    When I navigate to the home screen multiple times
+    Then I should see "Hello World" displayed only once on the screen
