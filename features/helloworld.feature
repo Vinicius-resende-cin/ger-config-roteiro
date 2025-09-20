@@ -34,3 +34,8 @@ Show a message saying "Hello World" on the screen
     Given I open the application
     When I navigate to the home screen
     Then the "Hello World" message should have a font size of 25px
+
+  Scenario: Verify Hello World message color
+    Given I open the application
+    When I navigate to the home screen
+    Then the "Hello World" message should be in red color
